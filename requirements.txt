@@ -1,0 +1,7 @@
+web3==6.5.0              # To interact with the Ethereum blockchain
+solcx==0.8.12            # To compile Solidity contracts
+cryptography==41.0.3     # For encrypting sensitive health data
+transformers==4.27.4     # For AI-based NLP (summarization, classification)
+torch==2.0.1             # Required backend for transformers
+nltk==3.8.1              # For additional text preprocessing (if needed)
+flask==2.2.3             # Optional, for building a backend API if required
