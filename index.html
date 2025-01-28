@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlockMedix AI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>BlockMedix AI</h1>
+      <p>Decentralized Healthcare Management System</p>
+    </header>
+
+    <section class="form-section">
+      <h2>Add Health Record</h2>
+      <form id="add-record-form">
+        <label for="name">Patient Name:</label>
+        <input type="text" id="name" placeholder="Enter patient name" required>
+
+        <label for="data">Health Data:</label>
+        <textarea id="data" placeholder="Enter health data" rows="4" required></textarea>
+
+        <button type="submit">Add Record</button>
+      </form>
+    </section>
+
+    <hr>
+
+    <section class="form-section">
+      <h2>Retrieve and Analyze Record</h2>
+      <form id="analyze-record-form">
+        <label for="record-id">Record ID:</label>
+        <input type="number" id="record-id" placeholder="Enter record ID" required>
+
+        <button type="submit">Analyze Record</button>
+      </form>
+      <div id="record-result" class="result-box"></div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 BlockMedix AI. All rights reserved.</p>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
